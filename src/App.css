@@ -5,5 +5,8 @@
 .App-logo {
   max-width: 200px;
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
+}
+.App-footer {
+  margin: 30px 0;
 }
