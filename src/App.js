@@ -13,7 +13,22 @@ function App() {
           <DictionarySearch />
         </main>
         <footer className="App-footer text-center">
-          Coded by Kathryn Huber
+          This project was coded by{" "}
+          <a
+            href="https://remarkable-kheer-01cc00.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Kathryn Huber
+          </a>{" "}
+          and is open-sourced on{" "}
+          <a
+            href="https://github.com/krhuber/dictionary-react-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
         </footer>
       </div>
     </div>
