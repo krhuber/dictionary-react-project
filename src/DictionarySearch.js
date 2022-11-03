@@ -35,6 +35,7 @@ export default function DictionarySearch() {
           onChange={handleKeywordChange}
         />
       </form>
+      <br />
       <Results results={results} />
     </div>
   );

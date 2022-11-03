@@ -1,4 +1,3 @@
-import dictionary from "./dictionary.png";
 import "./App.css";
 import DictionarySearch from "./DictionarySearch";
 
