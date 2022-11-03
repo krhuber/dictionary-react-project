@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import dictionary from "./dictionary.png";
 import "./App.css";
 import DictionarySearch from "./DictionarySearch";
 
@@ -7,7 +7,8 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
+          <h1 className="dictionary text-center">DICTIONARY</h1>
+          <hr />
         </header>
         <main>
           <DictionarySearch />
