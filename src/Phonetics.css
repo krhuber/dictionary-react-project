@@ -1,0 +1,25 @@
+.Phonetics {
+  height: 40px;
+}
+.Phonetics a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Phonetics button {
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 1px 15px;
+  margin: 15px;
+  background: white;
+}
+.Phonetics button:hover {
+  border: 1px solid black;
+}
+
+.Phonetics .text {
+  font-weight: bold;
+}

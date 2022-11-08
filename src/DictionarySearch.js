@@ -27,14 +27,20 @@ export default function DictionarySearch() {
 
   return (
     <div className="DictionarySearch">
-      <form onSubmit={search}>
-        <input
-          type="search"
-          placeholder="Search"
-          className="form-control w-50"
-          onChange={handleKeywordChange}
-        />
-      </form>
+      <h3>Search for a word:</h3>
+      <section>
+        <form onSubmit={search}>
+          <input
+            type="search"
+            placeholder="Search"
+            className="w-100"
+            onChange={handleKeywordChange}
+          />
+        </form>
+        <div className="hint">
+          suggested words: sunset, wine, yoga, plant...
+        </div>
+      </section>
       <br />
       <Results results={results} />
     </div>

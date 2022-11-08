@@ -1,0 +1,33 @@
+.DictionarySearch {
+  font-family: "Montserrat", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.DictionarySearch section {
+  background: #5bdab0;
+  padding: 30px;
+  margin: 5px 0;
+  border-radius: 6px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+}
+
+.DictionarySearch input {
+  margin: 0 auto;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px gray solid;
+}
+
+.DictionarySearch h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: #4cd1a5;
+}
+
+.DictionarySearch .hint {
+  font-size: 11px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
